@@ -7,29 +7,52 @@
     <title>Portifólio de Arthur Barbosa</title> <link rel = "preconnect" href = "https://fonts.googleapis.com">
     <link rel = "preconnect" href = "https://fonts.googleapis.com">
     <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-    <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 1.500 & display = swap "rel =" stylesheet ">
+    <link href = "https: //fonts.googleapis.com/css2? família = Montserrat: ital, wght @ 0,700; 1.500 & display = swap "rel =" stylesheet ">
     <style>
-        body{
+        body{   
+            text-align: center;         
+            margin: 0px;
             font-family: 'Montserrat', sans-serif;
+            background-color:#749e8b;
         }
+        
         .picture{
             border-radius: 50%;
             width: 250px;
+            margin: 1px;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            padding: 0px;
         }
-        .perfil{ 
-        color: #525252;
-        font-size: 26px;
-        line-height: 44px;
-        font-weight: 300;}
+        .picture2{
+            
+            width: 100px;
+            margin: 1px;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            padding: 0px;
+
+        }
+
+        section .picture2 {
+            text-align: left;
+            display: inline-block;
+            padding: 0px;
+            margin: 0px;
+            
+        }
+
         .conteudo{
-        max-width: 430px;
-        margin-top: 80px;
-        margin-bottom: 25px;
-        padding-left: 0px;
-        color: #525252;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 300;
+        color: #d1d1d1d5;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 1100;
+        margin: 0px;
+        text-align: left;
+        margin-left: 100px;
+        display: inline-block;
+        text-align: left;
+        padding: 0px;
         }
 
         .button-canal {max-width: 270px;
@@ -46,7 +69,10 @@
         color: white;
         }
         .outros{
-            color: #525252;
+            color: #000000;
+        }
+        #canal {
+            color: white;
         }
         
         #github {
@@ -74,51 +100,201 @@
             width: 50px;
             border-radius: 50%;
         }
+        .central {
+            text-align: center;
+        }
+        .indice li {
+            display: inline-block;
+            margin-right: 50px;
         
-    </style> 
+            
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            
+        }
+       header {           
+           text-align: center;
+           background-color: black;
+           padding: 7px;           
+           
+       }
+       section {
+           text-align: center;
+           display: inline-block;
+           margin-bottom: 0px;
+       }
+       section li{
+           display: block;
+       }    
+       footer {
+           padding: 0px;
+           margin-top: 0px;
+           margin-bottom: 0px;
+           background-image: url(/imagens/partedecima.jpeg); 
+           background-size: 100%;
+       }    
 
-  
+       .footer {
+           padding: 20px;
+           margin-top: 20px;
+           margin: 5px;
+       }
+
+       .perfil{ 
+        color: #000000;
+        font-size: 26px;
+        line-height: 44px;
+        font-weight: 300;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 0px;
+        }
+        
+       .descricao {
+           color: rgb(0, 49, 39);
+           display: inline-block;
+           width: 500px;
+           padding: 10px;
+           text-align: left;
+       }      
+
+       .listas1{
+           display: inline-block;
+           text-align: left;
+           
+       }
+       .listas2 {          
+           display:inline-block;
+           text-align: right;
+       }
+       .listas2 li:nth-child(1){
+                margin-bottom: 30px;
+                margin-top: 0px;
+                color:white;         
+          padding: 0px;
+       }
+       .listas2 li:nth-child(2){ 
+                margin-bottom: 35px;
+                margin-top: 0px; 
+                color:white;         
+          padding: 0px;
+       }
+       .listas2 li:nth-child(3){  
+            margin-bottom: 40px;
+            margin-top: 0px;
+                 color:white;         
+          padding: 0px;
+       }
+       .listas2 li:nth-child(4){ 
+            margin-bottom: 35px;
+            margin-top: 0px;
+                  color:white;         
+          padding: 0px;
+       }
+       .listas2 li:nth-child(5){ 
+        margin-bottom: 35px;
+        margin-top: 0px;
+                  color:white;        
+          padding: 0px;
+       }
+       .listas2 li:nth-child(6){  
+        margin-bottom: 55px;
+        margin-top: 0px;
+                 color:white;    
+          padding: 0px;
+       }
+       .listas3 {
+           color: white;
+          text-align: left;
+          margin-left: 150px;
+       }
+       .devdiv {
+           text-align: left;
+           margin-top: 10px;
+           display: block;
+       }
+       .nova {
+           display: inline-block;
+       }      
+      
+    </style>   
 </head>
-<body>    
-   
-    <p class="perfil" ><stong>Perfil:</stong></p>
+<header>    
+        <nav class="indice">          
+             <strong> 
+                 <ul>                   
+                    <li><a href="#ferramenta">Ferramentas</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#canal">Mídias Digitais</a></li>
+                    <li><a href="#canal">Canal</a></li>
+                </ul>
+             </strong> 
+        </nav>
+    
+</header>
+    <section>
+        <div class="devdiv">
+        <img src="/imagens/dev.png" alt="dev">
+        </div>
+        <div class="central" >            
+            <p ><img class="picture" id="foto" src="imagens/fotoperfil.jpg" alt="Arthur Barbosa">
+            </p>
+            <p class="perfil"  ><strong>Arthur Barbosa</strong></p>            
+            <div class="nova"> 
+                <a target="_blank" href="https://www.betrybe.com/"><img class="picture2" src="/imagens/trybee.png" alt="Escola Trybe"></a>
+                <p class="conteudo"           >
+                Natural da cidade de Cuiabá, MT. <br>
+                Morando na cidade de João Pessoa, PB.<br></p>
+            </div>
+            
+            </div>
+            <p class="descricao"><em>"Iniciando minha carreira de Desenvolvedor Web como estudante da Trybe, promovendo minhas solfskill em ser uma pessoa comunicativa, ágil, criativa. Estou no processo de aprendizagem para progredir com minhas Hards skills, sempre com honestidade e humildade no ambiente da Trybe."</em> </p>
+            
+        </div>
 
-    <h3 class="perfil">Indice:</h3>
-
-    <li><a href="#ferramenta">Ferramentas</a></li>
-    <li><a href="#habilidades">Habilidades</a></li>
-    <li><a href="#canal">Blog ou canal favorito</a></li>
-
-    <p class="perfil"  ><strong>Nome:</strong> <a href="#foto"><strong>Arthur Barbosa</strong></a></p>
-    <p ><img class="picture" id="foto" src="imagens/fotoperfil.jpg" alt="Arthur Barbosa">
-    </p>
-    <p class="conteudo"><strong>Natural da cidade de Cuiabá, MT. </strong><br>
-    <strong>Morando na cidade de João Pessoa, PB.</strong><br> </p>
-
-    <p class="outros" id="ferramentas"> <em>Ferramentas em Estudos</em>
-    <ul> 
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>GitHub</li>
-        <li>Git</li>
-        
-    </ul> 
-
-    </p>
-
-    <p class="outros" id="habilidades"><em>Habilidades:</em>
-    <ul>
-        <li>Comunicação - <em>Tenho mais orgulho da forma que consigo me relacionar atráves da comunicação</em></li>
-        <li>Ágil</li>
-        <li>Criatividade</li>
-        <li>Entusiasmo</li>
-    </ul>    
-    <p class="outros"  >Midias Socias & Canal do Youtube Preferido</p>
-    <a target="_blank" href="http://instagram.com/arthurbarbosaoliveira"><img id="instagram" src="/imagens/instagram.png" alt="Instagram Pessoal"></a>
-    <a target="_blank" href="https://github.com/ArthurBarbosaOliveira"><img id="github" src="/imagens/github.png" alt="GitHub"></a>
-    <a target="_blank" href="https://www.linkedin.com/in/arthur-barbosa-oliveira-501451201/"><img id="linkedin" src="/imagens/linkedin.png" alt="Linkedin"></a>
-    <a href="https://www.youtube.com/channel/UCGPyMhoHjh3EyKUHuiNq0jA"target="_blank"><img id="youtube" src="/imagens/youtube.png" alt="Canal do Youtube"></a></p>
+            <p class="outros" id="ferramentas"><strong> <em>Ferramentas em Estudos:</em></strong></p>
+            <div class="listas1">
+                <ul>
+                    <li><img src="/imagens/css.png" alt="css"></li>
+                    <li><img src="/imagens/html.png" alt="html"></li>
+                    <li><img src="/imagens/python.png" alt="python"></li>
+                    <li><img src="/imagens/js1.png" alt="Javascript"></li>
+                    <li><img src="/imagens/github1.png" alt="github"></li>
+                    <li><img src="/imagens/git.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="listas2">
+                <ul> 
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>GitHub</li>
+                    <li>Git</li>                
+                </ul>
+            </div>
+               
+            <p class="outros" id="habilidades"><strong><em>Habilidades:</em></strong></p>
+            <div class="listas3">  
+                    <ul>
+                        <li>Comunicação </li>
+                        <li>Ágil</li>
+                        <li>Criatividade</li>
+                        <li>Entusiasmo</li>
+                        <li>Dedicado</li>
+                    </ul> 
+            </div>
+    </section>
+    <footer class="central">
+        <div class="footer"> 
+            <p id="canal" class="outros"  ><strong> Mídias Socias & Canal do Youtube Preferido</strong> </p>
+            <a target="_blank" href="http://instagram.com/arthurbarbosaoliveira"><img id="instagram" src="/imagens/instagram.png" alt="Instagram Pessoal"></a>
+            <a target="_blank" href="https://github.com/ArthurBarbosaOliveira"><img id="github" src="/imagens/github.png" alt="GitHub"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/arthur-barbosa-oliveira-501451201/"><img id="linkedin" src="/imagens/linkedin.png" alt="Linkedin"></a>
+            <a href="https://www.youtube.com/channel/UCGPyMhoHjh3EyKUHuiNq0jA"target="_blank"><img id="youtube" src="/imagens/youtube.png" alt="Canal do Youtube"></a></p>
+        </div>   
+    </footer>
 </body>
 </html>
